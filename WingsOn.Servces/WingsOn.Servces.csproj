@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingsOn.Dal\WingsOn.Dal.csproj" />
+    <ProjectReference Include="..\WingsOn.Domain\WingsOn.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
